@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 Apr 2016 13:27:55 -0500</pubDate>
+    <lastBuildDate>Thu, 28 Apr 2016 13:27:55 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 Apr 2016 09:53:23 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/04/27/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/04/27/welcome-to-jekyll.html</guid>
+
+
+        <category>jekyll</category>
+
+        <category>update</category>
+
+      </item>
+
+      <item>
+        <title>Blog Post Final Project Idea</title>
+        <description>&lt;p&gt;Even before the cohort began, I had an idea of what I wanted to accomplish with my final project. I am fascinated with animals. I love every different kind and each has characteristics that make them extremely interesting. I believe in animal welfare and one of my life’s goals is to make a difference any way I can to preserve and protect. As silly as it may sound, the animals in my life have been some of my greatest friends. They are loyal, kind, accepting, and induce feelings of extreme happiness. All of that leads to what I would like my final project to be about. I would like to create a web application that limits the number of homeless pet and pets that find themselves in the shelter by allowing those who unfortunately have to relinquish their beloved pets to find others in their area who are wanting to adopt. This prevents the pets from winding up in the shelter and potentially being put down and being able to move on to a new loving home. Other features would include users being able to filter by pet size/breed and potentially expanding to include other features.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/04/27/blog-post-Final-Project-Idea.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/04/27/blog-post-Final-Project-Idea.html</guid>
+
+
+      </item>
+
+      <item>
+        <title>Blog Post Redarena Project</title>
+        <description>&lt;p&gt;#REDArena Client Project&lt;/p&gt;
+
+&lt;p&gt;##What was this project about?&lt;/p&gt;
+
+&lt;p&gt;This was our first project working with an actual client and also with another designer. Our client(REDArena) is a non profit therapeutic riding center in Dripping Springs, TX. Their desire was for us to design a better scheduling system for their center. They are currently using a spreadsheet that gets printed out daily and manually edited when changes take place. At first this system was sufficient for their needs, but as their company is growing, changes are needed to keep up with the demands.&lt;/p&gt;
+
+&lt;p&gt;##The process&lt;/p&gt;
+
+&lt;p&gt;When designing, the first step is research. Researching and documenting what the company is about, what are they seeking in the new design, do they wish to rebrand, how technically proficient are the users, how many employees/riders/horses, etc. We met with the client and discussed a lot of the details before starting anything to get our questions answered and gain a better sense of direction for the web application we were going to build. We also had the developer in the meeting so we were able to better understand their perspective on the build.&lt;/p&gt;
+
+&lt;p&gt;##The challenges&lt;/p&gt;
+
+&lt;p&gt;One thing I wish I would have done better was keeping track of requirements for the application. Because I had notes and requirements listed and scribbled in several different places, it was hard to stay on track and know what to do next. I definitely need to develop a standard for note taking/staying organized. It felt chaotic without that organization. Another thing that might have added to my confusion, was that it was my first time working with another designer. Naturally each person has their own system for accomplishing a project and it was a great lesson in communication. I think overall we did a great job with that. It was beneficial working with another designer because it drastically decreased my workload, but it was also difficult at times when we didn’t agree on certain design elements. Talking through every detail thoroughly and understanding responsibilities before starting was key.&lt;/p&gt;
+
+&lt;p&gt;##The advantages&lt;/p&gt;
+
+&lt;p&gt;The biggest advantage of this process was how much I gained from it. I’ve heard horror stories from those who have worked with clients directly so I was trepedatious at the beginning. While I’m sure there are some clients out there who aren’t the greatest to work with, our client was super great to work with and I had a blast creating something for someone making a difference in the world. I hope that whatever elements of our design they use are beneficial in helping them help others.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Apr 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/04/25/blog-post-REDArena-Project.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/04/25/blog-post-REDArena-Project.html</guid>
+
+
+      </item>
+
+      <item>
+        <title>Blog Post Web App Redesign</title>
+        <description>&lt;p&gt;#My process for app redesign(including mental breakdown)&lt;/p&gt;
+
+&lt;p&gt;Last weekend our assignment for the Iron Yard was redesigning an app. The website we were given was LinkedIn(we all know it could use some help). My first step was research. I interviewed users and signed up for the app myself. Questions explored include: what do users want more of from LinkedIn, what do users want less of, what is typically a user’s main purpose when logging in to their LinkedIn account, etc. I also explored LinkedIn’s strengths, weaknesses, opportunities and threats in my research process.&lt;/p&gt;
+
+&lt;p&gt;I found that the main reasons for those using the app include the following: to find a job, to connect with those they’ve worked with in the past and make new connections based on people they’ve met or places they could potentially work. Users did not mention feed or following interests other than that it was an unnecessary component of the app. Most users did not use the app until they were seeking new employment opportunities and that it was important to them to see how many views they’ve had when they log in.&lt;/p&gt;
+
+&lt;p&gt;After gathering the research, I pondered on what could be the best layout for the app. I decided on a dashboard approach. I found a few examples of great dashboard websites and began sketching a new layout.&lt;/p&gt;
+
+&lt;p&gt;After I had a good layout established, I took to Illustrator to create the low fidelity to high fidelity wireframes. This is where things got interesting. Friday night I slacked…come Saturday morning I open Illustrator and it’s at this point I realize, “Wow, I’m an idiot for wasting so much time on pointless crap this weekend…I’m just gonna skip straight to the high fidelity wireframe.” Six hours later…wireframe complete. &lt;strong&gt;Closes laptop&lt;/strong&gt; At this point, I waste a few more hours. That evening I return to my computer and open it to get started on the coding portion. My computer restarted, that’s strange. I begin to search the computer for my Illustrator file all the while thinking “I know I saved this…I had to have saved this file”. And then it hit me…I didn’t save my work. Panic sweeps over me and grips my heart. &lt;strong&gt;Commence breakdown&lt;/strong&gt; Tears began to flow as I searched my computer again for the file…no luck. Feeling defeated and ultimately down on myself for wasting so much time instead of tending to my weekend project, I cried for a bit and then set out to recreate the wireframe from scratch. I start building out the app on Sunday morning and remember I have to get my sister from the airport. I rush to the airport, pickup my chatty sister, and agree to get lunch. Upon returning, as I open the door to my apartment I am hit with the most repugnant odor my nose has ever smelled. Taking up the space of the entire kitchen floor as well as the pantry and refrigerator door is a puddle of diarrhea. Shit. Literally. I look up to see a very guilty dog cowering on the other end of the apartment. After taking him outside where he let loose even more diarrhea, I return to the apartment and set to cleaning the mess.&lt;/p&gt;
+
+&lt;p&gt;At this point I am exhausted and discouraged and still haven’t started on the hardest part of my project. After the mess was clean and I could breath again, I began building the app.
+To get this story wrapped up, I ended up having a mental breakdown at 3am after trying for an hour to figure out something that should’ve taken 15 minutes. I procrastinated, ran into a few hurdles, and made the project harder than it needed to be by doing so. I skipped steps that are intended to be there to make it easier, such as setting up a grid system before building out the other code.&lt;/p&gt;
+
+&lt;p&gt;Good news is, I received a lot of positive feedback on my wireframe. Bad news is, I still haven’t finished building out the app. This weekend was a wake up call that I needed to get back in the right mindset to finish out this cohort. Six more weeks to go!!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/04/06/blog-post-Web-App-Redesign.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/04/06/blog-post-Web-App-Redesign.html</guid>
+
+
+      </item>
+
+      <item>
+        <title>Blog Post Typographical Discoveries</title>
+        <description>&lt;p&gt;#Week 3 at The Iron Yard: Typographical Discoveries&lt;/p&gt;
+
+&lt;p&gt;Words are used to communicate various things…ideas, emotions, feelings…with typography, words can be communicated even more clearly. Different fonts give off different vibes and can emphasize a point to be communicated. It is essential to use the appropriate font or an idea or feeling may not be accurately portrayed. Today we learned about choosing the appropriate font for our restaurant website redesign. My website redesign is for a bakery called Moonlight Bakery. With the name in mind, it could be ideal to use a more modern, somewhat galactic font for the title to go along with the “moonlight” theme. For the rest of the website, a simple modern font would work best for easy readability and to maintain the theme.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/03/15/blog-post-Typographical-Discoveries.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/03/15/blog-post-Typographical-Discoveries.html</guid>
+
+
+      </item>
+
+  </channel>
+</rss>
