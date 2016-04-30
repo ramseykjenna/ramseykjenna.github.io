@@ -1,0 +1,38 @@
+.banner {
+    width: 100%;
+    height: 45em;
+    background-color: $primary;
+    position: relative;
+    .banner-img {
+        margin-top: 2em;
+        width: 70%;
+        height: 85%;
+        background-image: url('http://s32.postimg.org/9deo22s5x/IMG_7424.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        right: 0;
+        border: 5px solid $accent2;
+        border-right: 0;
+        box-shadow: 0 3px 10px grey;
+    }
+    h1 {
+        margin: 0;
+            color: black;
+        @include v-center(absolute);
+        right: 56%;
+        z-index: 999;
+        }
+    .title {
+        width: 16em;
+        height: 6em;
+        background-color: $primary;
+        @include v-center(absolute);
+        right: 54%;
+        z-index: 998;
+        box-shadow: 0 3px 10px grey;
+        opacity: .85;
+
+    }
+}

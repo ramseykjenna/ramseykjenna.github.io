@@ -1,0 +1,33 @@
+nav {
+    height: 5em;
+    background-color: $primary;
+    position: relative;
+    a {
+        text-decoration: none;
+        color: $accent1;
+        font-size: 1em;
+
+    }
+    #home {
+        @include v-center(absolute);
+        left: 2em;
+        font-size: 1.5em;
+    }
+    #contact {
+        @include v-center(absolute);
+        right: 2em;
+    }
+    #blog {
+        @include v-center(absolute);
+        right: 6.725em;
+    }
+    #about {
+        @include v-center(absolute);
+        right: 10em;
+    }
+    #work {
+        @include v-center(absolute);
+        right: 14em;
+    }
+
+}
