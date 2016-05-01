@@ -2,75 +2,230 @@ body {
   font-family: 'Fira Sans', sans-serif;
   margin: 0; }
 
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #EEEEEE;
+  z-index: 999; }
+  nav .nav-content {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    nav .nav-content a {
+      text-decoration: none;
+      color: #484645;
+      font-size: 1em; }
+    nav .nav-content #home {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 2em;
+      font-size: 2em; }
+    nav .nav-content #contact-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 2.5em; }
+    nav .nav-content #blog-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 7.25em; }
+    nav .nav-content #about-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 14.5em; }
+    nav .nav-content #work-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10.5em; }
+
 .banner {
   width: 100%;
-  height: 45em;
-  background-color: #F0E5DE;
-  position: relative; }
+  height: 90vh;
+  background-color: #EEEEEE;
+  position: relative;
+  margin-top: 5em; }
   .banner .banner-img {
-    margin-top: 2em;
     width: 70%;
-    height: 85%;
-    background-image: url("http://s32.postimg.org/9deo22s5x/IMG_7424.png");
+    height: 80vh;
+    background-image: url("http://cache.terryrichardson.com/photos/i/2013/01/41703285991.0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     position: absolute;
     right: 0;
-    border: 5px solid #D9D4CF;
-    border-right: 0;
-    box-shadow: 0 3px 10px grey; }
-  .banner h1 {
+    border: 1px solid #D9D4CF; }
+  .banner h1, .banner #work .description .left h2, #work .description .left .banner h2, .banner #about .description .left h2, #about .description .left .banner h2, .banner #blog .description .left h2, #blog .description .left .banner h2, .banner #contact .description .left h2, #contact .description .left .banner h2 {
     margin: 0;
-    color: black;
+    font-size: 8em;
+    color: #484645;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 56%;
-    z-index: 999; }
+    z-index: 998; }
   .banner .title {
     width: 16em;
     height: 6em;
-    background-color: #F0E5DE;
+    background-color: #EEEEEE;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 54%;
-    z-index: 998;
+    z-index: 997;
     box-shadow: 0 3px 10px grey;
     opacity: .85; }
 
-nav {
-  height: 5em;
-  background-color: #F0E5DE;
-  position: relative; }
-  nav a {
-    text-decoration: none;
-    color: #7C7877;
-    font-size: 1em; }
-  nav #home {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 2em;
-    font-size: 1.5em; }
-  nav #contact {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 2em; }
-  nav #blog {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 6.725em; }
-  nav #about {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10em; }
-  nav #work {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 14em; }
+#work, #about, #blog, #contact {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left; }
+  #work .work-experience, #about .work-experience, #blog .work-experience, #contact .work-experience {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-top: 1.5em; }
+  #work .first, #about .first, #blog .first, #contact .first {
+    margin-top: 0; }
+  #work .devices, #about .devices, #blog .devices, #contact .devices {
+    width: 100%;
+    height: 14em;
+    margin-top: 0;
+    position: relative;
+    float: left; }
+    #work .devices .computer, #about .devices .computer, #blog .devices .computer, #contact .devices .computer {
+      height: 100%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      margin-right: 2.5%;
+      width: 45%;
+      background-image: url("http://s32.postimg.org/9kcvq9olx/MB_Computer.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top; }
+    #work .devices .tablet, #about .devices .tablet, #blog .devices .tablet, #contact .devices .tablet {
+      background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      height: 100%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      margin-right: 2.5%;
+      width: 35%;
+      background-color: #7C7877; }
+    #work .devices .phone, #about .devices .phone, #blog .devices .phone, #contact .devices .phone {
+      background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      height: 100%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      width: 15%;
+      background-color: #D9D4CF; }
+  #work .description, #about .description, #blog .description, #contact .description {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-top: 1em; }
+    #work .description .left, #about .description .left, #blog .description .left, #contact .description .left {
+      height: 100%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      width: 30%;
+      height: auto; }
+      #work .description .left h1, #about .description .left h1, #blog .description .left h1, #contact .description .left h1, #work .description .left h2, #about .description .left h2, #blog .description .left h2, #contact .description .left h2 {
+        font-weight: normal;
+        font-size: 1.5em;
+        color: #484645; }
+      #work .description .left h2, #about .description .left h2, #blog .description .left h2, #contact .description .left h2 {
+        font-size: 1.2em;
+        color: #D9D4CF; }
+    #work .description .right, #about .description .right, #blog .description .right, #contact .description .right {
+      height: 100%;
+      display: inline-block;
+      float: left;
+      position: relative;
+      width: 70%;
+      color: #484645;
+      height: auto; }
+      #work .description .right p, #about .description .right p, #blog .description .right p, #contact .description .right p {
+        margin: 5px 0;
+        color: #95887a; }
+
+#about p {
+  margin: 0; }
+
+#blog {
+  margin-top: 2em; }
+  #blog .post-img {
+    width: 20em;
+    height: 20em;
+    float: left;
+    margin: .5em 1.5em 1em 0;
+    background-image: url("https://images.unsplash.com/reserve/KOe8tuA2RNGsiN2Zt2Ts_IMG_4649.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b34f43efdb2ef597acecbf401474453e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top; }
+  #blog .post-content {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative; }
+  #blog p {
+    margin: 0; }
+    #blog p h1, #work .description .left #blog p h2, #about .description .left #blog p h2, #blog p .description .left h2, #blog .description .left p h2, #contact .description .left #blog p h2 {
+      margin: 0; }
+
+#contact p {
+  margin: 0; }
+
+#content {
+  padding: 2em 0;
+  color: #7C7877;
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left; }
+  #content h1, #content #work .description .left h2, #work .description .left #content h2, #content #about .description .left h2, #about .description .left #content h2, #content #blog .description .left h2, #blog .description .left #content h2, #content #contact .description .left h2, #contact .description .left #content h2 {
+    margin: 0;
+    font-weight: normal; }
+  #content #content-center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 80%;
+    max-width: 1000px;
+    float: left; }
+    #content #content-center .info, #content #content-center .titles {
+      position: relative;
+      display: inline-block;
+      float: left;
+      height: auto;
+      overflow: hidden;
+      width: 80%;
+      padding: 2em 0; }
+    #content #content-center .titles {
+      width: 20%; }
+
+.site-footer {
+  width: 100%;
+  height: 40em;
+  background-color: #EEEEEE;
+  position: relative;
+  float: left; }

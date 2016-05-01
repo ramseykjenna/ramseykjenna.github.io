@@ -1,33 +1,40 @@
 nav {
-    height: 5em;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: $primary;
-    position: relative;
-    a {
-        text-decoration: none;
-        color: $accent1;
-        font-size: 1em;
-
+    z-index: 999;
+    .nav-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        a {
+            text-decoration: none;
+            color: $accent3;
+            font-size: 1em;
+        }
+        #home {
+            @include v-center(absolute);
+            left: 2em;
+            font-size: 2em;
+        }
+        #contact-icon {
+            @include v-center(absolute);
+            right: 2.5em;
+        }
+        #blog-icon {
+            @include v-center(absolute);
+            right: 7.25em;
+        }
+        #about-icon {
+            @include v-center(absolute);
+            right: 14.5em;
+        }
+        #work-icon {
+            @include v-center(absolute);
+            right: 10.5em;
+        }
     }
-    #home {
-        @include v-center(absolute);
-        left: 2em;
-        font-size: 1.5em;
-    }
-    #contact {
-        @include v-center(absolute);
-        right: 2em;
-    }
-    #blog {
-        @include v-center(absolute);
-        right: 6.725em;
-    }
-    #about {
-        @include v-center(absolute);
-        right: 10em;
-    }
-    #work {
-        @include v-center(absolute);
-        right: 14em;
-    }
-
 }

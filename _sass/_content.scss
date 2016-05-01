@@ -1,0 +1,33 @@
+// Styles for content container
+#content {
+    padding: 2em 0;
+    color: $accent1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    h1 {
+       margin: 0;
+        font-weight: normal;
+    }
+    #content-center {
+        @include h-center;
+        height: auto;
+        width: 80%;
+        max-width: 1000px;
+        float: left;
+        .info {
+            position: relative;
+            display: inline-block;
+            float: left;
+            height: auto;
+            overflow: hidden;
+            width: 80%;
+            padding: 2em 0;
+        }
+        .titles {
+            @extend .info;
+            width: 20%;
+        }
+    }
+}

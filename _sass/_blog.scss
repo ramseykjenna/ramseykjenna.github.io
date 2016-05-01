@@ -1,0 +1,23 @@
+#blog {
+    @extend #work;
+    margin-top: 2em;
+    .post-img {
+        width: 20em;
+        height: 20em;
+        float: left;
+        margin: .5em 1.5em 1em 0;
+        @include bg-image('https://images.unsplash.com/reserve/KOe8tuA2RNGsiN2Zt2Ts_IMG_4649.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b34f43efdb2ef597acecbf401474453e', left, top);
+    }
+    .post-content {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    p {
+        margin: 0;
+        h1 {
+            margin: 0;
+        }
+    }
+}

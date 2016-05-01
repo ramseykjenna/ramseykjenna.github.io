@@ -1,38 +1,34 @@
+// Banner Styles
 .banner {
     width: 100%;
-    height: 45em;
+    height: 90vh;
     background-color: $primary;
     position: relative;
+    margin-top: 5em;
     .banner-img {
-        margin-top: 2em;
         width: 70%;
-        height: 85%;
-        background-image: url('http://s32.postimg.org/9deo22s5x/IMG_7424.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        height: 80vh;
+        @include bg-image('http://cache.terryrichardson.com/photos/i/2013/01/41703285991.0.jpg',center, center);
         position: absolute;
         right: 0;
-        border: 5px solid $accent2;
-        border-right: 0;
-        box-shadow: 0 3px 10px grey;
+        border: 1px solid $accent2;
     }
     h1 {
         margin: 0;
-            color: black;
+        font-size: 8em;
+        color: $accent3;
         @include v-center(absolute);
         right: 56%;
-        z-index: 999;
-        }
+        z-index: 998;
+    }
     .title {
         width: 16em;
         height: 6em;
         background-color: $primary;
         @include v-center(absolute);
         right: 54%;
-        z-index: 998;
+        z-index: 997;
         box-shadow: 0 3px 10px grey;
         opacity: .85;
-
     }
 }

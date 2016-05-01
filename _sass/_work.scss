@@ -1,0 +1,74 @@
+#work {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    .work-experience {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-top: 1.5em;
+    }
+    .first {
+        margin-top: 0;
+    }
+    .devices {
+        width: 100%;
+        height: 14em;
+        margin-top: 0;
+        position: relative;
+        float: left;
+        .computer {
+            @include inline;
+            margin-right: 2.5%;
+            width: 45%;
+            @include bg-image('http://s32.postimg.org/9kcvq9olx/MB_Computer.png', center, top);
+        }
+        .tablet {
+            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
+            @include inline;
+            margin-right: 2.5%;
+            width: 35%;
+            background-color: $accent1;
+        }
+        .phone {
+            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
+            @include inline;
+            width: 15%;
+            background-color: $accent2;
+        }
+    }
+    .description {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-top: 1em;
+        .left {
+            @include inline;
+            width: 30%;
+            height: auto;
+            h1 {
+                font-weight: normal;
+                font-size: 1.5em;
+                color: $accent3;
+            }
+            h2 {
+                @extend h1;
+                font-size: 1.2em;
+                color: $accent2;
+            }
+        }
+        .right {
+            @include inline;
+            width: 70%;
+            color: $accent3;
+            height: auto;
+            p {
+                margin: 5px 0;
+                color: darken($accent2, 30%);
+            }
+        }
+    }
+}
