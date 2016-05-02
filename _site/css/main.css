@@ -8,7 +8,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #EEEEEE;
+  background-color: #D8E6E7;
   z-index: 999; }
   nav .nav-content {
     width: 100%;
@@ -47,8 +47,8 @@ nav {
 
 .banner {
   width: 100%;
-  height: 90vh;
-  background-color: #EEEEEE;
+  height: 93vh;
+  background-color: #D8E6E7;
   position: relative;
   margin-top: 5em; }
   .banner .banner-img {
@@ -73,7 +73,7 @@ nav {
   .banner .title {
     width: 16em;
     height: 6em;
-    background-color: #EEEEEE;
+    background-color: #D8E6E7;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -81,6 +81,13 @@ nav {
     z-index: 997;
     box-shadow: 0 3px 10px grey;
     opacity: .85; }
+  .banner .ion-chevron-down {
+    color: #484645;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 86vh; }
 
 #work, #about, #blog, #contact {
   position: relative;
@@ -92,7 +99,37 @@ nav {
     height: auto;
     position: relative;
     float: left;
-    margin-top: 1.5em; }
+    margin-top: 3.5em; }
+  #work .moonlight .computer, #about .moonlight .computer, #blog .moonlight .computer, #contact .moonlight .computer {
+    background-image: url("http://s32.postimg.org/9kcvq9olx/MB_Computer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
+  #work .moonlight .tablet, #about .moonlight .tablet, #blog .moonlight .tablet, #contact .moonlight .tablet {
+    background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
+  #work .moonlight .phone, #about .moonlight .phone, #blog .moonlight .phone, #contact .moonlight .phone {
+    background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
+  #work .herdl .computer, #about .herdl .computer, #blog .herdl .computer, #contact .herdl .computer {
+    background-image: url("http://s32.postimg.org/sakeughb9/herdl_desktop_min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
+  #work .herdl .tablet, #about .herdl .tablet, #blog .herdl .tablet, #contact .herdl .tablet {
+    background-image: url("http://s32.postimg.org/kf5s8tbqd/herdl_tablet_min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
+  #work .herdl .phone, #about .herdl .phone, #blog .herdl .phone, #contact .herdl .phone {
+    background-image: url("http://s32.postimg.org/c6zptgbdx/herdl_phone_min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; }
   #work .first, #about .first, #blog .first, #contact .first {
     margin-top: 0; }
   #work .devices, #about .devices, #blog .devices, #contact .devices {
@@ -107,16 +144,8 @@ nav {
       float: left;
       position: relative;
       margin-right: 2.5%;
-      width: 45%;
-      background-image: url("http://s32.postimg.org/9kcvq9olx/MB_Computer.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top; }
+      width: 45%; }
     #work .devices .tablet, #about .devices .tablet, #blog .devices .tablet, #contact .devices .tablet {
-      background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top;
       height: 100%;
       display: inline-block;
       float: left;
@@ -125,10 +154,6 @@ nav {
       width: 35%;
       background-color: #7C7877; }
     #work .devices .phone, #about .devices .phone, #blog .devices .phone, #contact .devices .phone {
-      background-image: url("http://s32.postimg.org/jpq8nt979/MB_mobile.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top;
       height: 100%;
       display: inline-block;
       float: left;
@@ -167,8 +192,38 @@ nav {
         margin: 5px 0;
         color: #95887a; }
 
-#about p {
-  margin: 0; }
+#about .info img, #about #content #content-center .titles img, #content #content-center #about .titles img {
+  height: 100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 23%;
+  margin: .5%;
+  border: 2px solid #D8E6E7; }
+#about .info h2, #about #content #content-center .titles h2, #content #content-center #about .titles h2 {
+  font-weight: normal;
+  color: #ABD0CE; }
+#about .info ul, #about #content #content-center .titles ul, #content #content-center #about .titles ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 50%; }
+  #about .info ul li, #about #content #content-center .titles ul li, #content #content-center #about .titles ul li {
+    margin: 1em .5em; }
+    #about .info ul li img, #about #content #content-center .titles ul li img, #content #content-center #about .titles ul li img {
+      -webkit-filter: grayscale(100%);
+      /* Chrome, Safari, Opera */
+      filter: grayscale(100%);
+      width: 16px;
+      height: 16px; }
+    #about .info ul li i, #about #content #content-center .titles ul li i, #content #content-center #about .titles ul li i {
+      color: #484645; }
+    #about .info ul li span, #about #content #content-center .titles ul li span, #content #content-center #about .titles ul li span {
+      margin-left: 1em; }
 
 #blog {
   margin-top: 2em; }
@@ -191,8 +246,45 @@ nav {
     #blog p h1, #work .description .left #blog p h2, #about .description .left #blog p h2, #blog p .description .left h2, #blog .description .left p h2, #contact .description .left #blog p h2 {
       margin: 0; }
 
-#contact p {
-  margin: 0; }
+#contact {
+  text-transform: lowercase; }
+  #contact h1, #work .description .left #contact h2, #about .description .left #contact h2, #blog .description .left #contact h2, #contact .description .left h2 {
+    text-transform: capitalize; }
+  #contact .half {
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 50%;
+    text-align: right; }
+    #contact .half i {
+      margin-bottom: 1em;
+      font-size: 5em; }
+  #contact label {
+    text-align: left;
+    width: 100%;
+    display: block; }
+  #contact input, #contact textarea {
+    padding: .25em;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #484645;
+    margin: 2em 0;
+    outline: none; }
+  #contact textarea:focus {
+    border: 1px solid #484645; }
+  #contact button {
+    width: 101%;
+    padding: .75em 0;
+    border: 1px solid #484645;
+    border-radius: 0;
+    background-color: white;
+    color: #484645;
+    outline: none; }
+  #contact button:hover {
+    background-color: #484645;
+    color: white; }
 
 #content {
   padding: 2em 0;
@@ -226,6 +318,6 @@ nav {
 .site-footer {
   width: 100%;
   height: 40em;
-  background-color: #EEEEEE;
+  background-color: #D8E6E7;
   position: relative;
   float: left; }

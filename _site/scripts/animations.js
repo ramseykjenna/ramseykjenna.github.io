@@ -20,6 +20,7 @@ $(document).ready(function () {
     var aboutIcon = $('#about-icon');
     var blogIcon = $('#blog-icon');
     var contactIcon = $('#contact-icon');
+    var down = $('.ion-chevron-down');
 
     // Click on home icon scoll to top
     homeIcon.click(function () {
@@ -44,6 +45,14 @@ $(document).ready(function () {
         }, 1000);
         down = false;
     });
+
+    down.click(function () {
+        page.animate({
+            scrollTop: about.offset().top - navOffset
+        }, 1000);
+        down = false;
+    });
+
 
     // Click on work icon scoll to work
     blogIcon.click(function () {

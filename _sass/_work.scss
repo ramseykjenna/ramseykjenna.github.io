@@ -8,8 +8,34 @@
         height: auto;
         position: relative;
         float: left;
-        margin-top: 1.5em;
+        margin-top: 3.5em;
     }
+    .moonlight {
+       .computer {
+
+            @include bg-image('http://s32.postimg.org/9kcvq9olx/MB_Computer.png', center, top);
+        }
+        .tablet {
+            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
+        }
+        .phone {
+            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
+        }
+    }
+    .herdl {
+       .computer {
+
+            @include bg-image('http://s32.postimg.org/sakeughb9/herdl_desktop_min.png', center, top);
+        }
+        .tablet {
+            @include bg-image('http://s32.postimg.org/kf5s8tbqd/herdl_tablet_min.png', center, top);
+        }
+        .phone {
+            @include bg-image('http://s32.postimg.org/c6zptgbdx/herdl_phone_min.png', center, top);
+        }
+    }
+
+
     .first {
         margin-top: 0;
     }
@@ -23,17 +49,14 @@
             @include inline;
             margin-right: 2.5%;
             width: 45%;
-            @include bg-image('http://s32.postimg.org/9kcvq9olx/MB_Computer.png', center, top);
         }
         .tablet {
-            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
             @include inline;
             margin-right: 2.5%;
             width: 35%;
             background-color: $accent1;
         }
         .phone {
-            @include bg-image('http://s32.postimg.org/jpq8nt979/MB_mobile.png', center, top);
             @include inline;
             width: 15%;
             background-color: $accent2;
