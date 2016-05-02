@@ -1,6 +1,51 @@
  #contact {
      @extend #work;
-     p {
-         margin: 0;
+     text-transform: lowercase;
+     h1 {
+         text-transform: capitalize;
+     }
+     .half {
+         @include inline;
+         width: 50%;
+         text-align: right;
+         i {
+             margin-bottom: 1em;
+             font-size: 5em;
+         }
+     }
+     label {
+         text-align: left;
+         width: 100%;
+         display: block;
+     }
+     input {
+         padding: .25em;
+         display: block;
+         width: 100%;
+         border: 0;
+         border-bottom: 1px solid $accent3;
+         margin: 2em 0;
+         outline: none;
+     }
+     textarea {
+         @extend input;
+     }
+
+     textarea:focus {
+         border: 1px solid $accent3;
+     }
+
+     button {
+         width: 101%;
+         padding: .75em 0;
+         border: 1px solid $accent3;
+         border-radius: 0;
+         background-color: white;
+         color: $accent3;
+         outline: none;
+     }
+     button:hover {
+         background-color: $accent3;
+         color: white;
      }
  }
