@@ -1,24 +1,28 @@
 // Banner Styles
 .banner {
     width: 100%;
-    height: 93vh;
+    height: 100vh;
     background-color: $primary;
     position: relative;
-    margin-top: 5em;
+    background-image: url(/images/IMG_1722.JPG);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
     .banner-img {
-        width: 70%;
-        height: 80vh;
-        @include bg-image('http://cache.terryrichardson.com/photos/i/2013/01/41703285991.0.jpg',center, center);
-        position: absolute;
-        right: 0;
-        border: 1px solid $accent2;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            float: right;
+        }
     }
     h1 {
         margin: 0;
-        font-size: 8em;
+        margin-left: .5em;
+        font-size: 5em;
         color: $accent3;
         @include v-center(absolute);
-        right: 56%;
         z-index: 998;
     }
     .title {
@@ -32,9 +36,9 @@
         opacity: .85;
     }
     .ion-chevron-down {
-        color: $accent3;
+        color: white;
         font-size: 2em;
         @include h-center(absolute);
-        top: 86vh;
+        top: 92vh;
     }
 }
