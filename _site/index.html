@@ -34,7 +34,7 @@
     <header class="site-header">
 
     <div class="wrapper">
-        <nav>
+        <nav id="nav">
             <div class="nav-content">
                 <a id="home">Efflorescent</a>
                 <a class="menu-item" id="about-icon">About</a>
@@ -86,7 +86,7 @@
    </div>
 -->
 
-<!--
+        <!--
         <div class="banner-img">
             <img src="images/IMG_1722.JPG" alt="">
         </div>
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                      <div class="work-experience herdl">
+                    <div class="work-experience herdl">
                         <div class="devices">
                             <div class="computer">
 
@@ -269,27 +269,53 @@
                     <h1>Contact</h1>
                 </div>
                 <div class="info">
-                   <div class="half">
-                        <form action="">
+                    <div class="half">
+                        <form action="https://formspree.io/ramseykjenna@gmail.com" method="POST">
+
+                           <!-- Inputs -->
                             <label for="">Name:</label>
-                            <input type="text">
+                            <input type="text" name="name">
                             <label for="">Email:</label>
-                            <input type="text">
+                            <input type="email" name="_replyto">
                             <label for="">Phone:</label>
-                            <input type="text">
+                            <input type="text" name="_phone">
                             <label for="">Message:</label>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <button>Send</button>
+                            <textarea name="_message" id="" cols="30" rows="10"></textarea>
+
+                            <!-- Formspree config -->
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <input type="hidden" name="_subject" value="Portfolio Contact Form" />
+
+                            <!-- Submit -->
+                            <input class="submit" type="submit" value="Send"></input>
                         </form>
+<!--
+                        <form action="https://formspree.io/your@email.com" method="POST">
+                            <input type="text" name="name">
+                            <input type="email" name="_replyto">
+                            <input type="submit" value="Send">
+                        </form>
+-->
                     </div>
                     <div class="half">
-                        <i class="ion-social-linkedin-outline half"></i>
-                         <i class="ion-ios-email-outline half"></i>
-                        <i class="ion-social-github-outline half"></i>
 
-                        <i class="ion-social-instagram-outline half"></i>
+                        <a href="https://www.linkedin.com/in/jenna-ramsey-a6a05257" target="_blank">
+                            <i class="ion-social-linkedin-outline half"></i>
+                        </a>
+
+                        <a href="mailto:ramseykjenna@gmail.com?" target="_top">
+                            <i class="ion-ios-email-outline half"></i>
+                        </a>
+
+                        <a href="https://github.com/ramseykjenna" target="_blank">
+                           <i class="ion-social-github-outline half"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/theothegsd/" target="_blank">
+                            <i class="ion-social-instagram-outline half"></i>
+                        </a>
+
                     </div>
-
                 </div>
             </div>
         </div>
