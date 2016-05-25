@@ -1,5 +1,6 @@
  #contact {
      @extend #work;
+     height: 90vh;
      text-transform: lowercase;
      h1 {
          text-transform: capitalize;
@@ -8,9 +9,15 @@
          @include inline;
          width: 50%;
          text-align: right;
-         i {
-             margin-bottom: 1em;
-             font-size: 5em;
+         a {
+             color: $accent1;
+             i {
+                 margin-bottom: 1em;
+                 font-size: 5em;
+             }
+         }
+         a:hover {
+             color: $accent3;
          }
      }
      label {
@@ -30,12 +37,10 @@
      textarea {
          @extend input;
      }
-
      textarea:focus {
          border: 1px solid $accent3;
      }
-
-     button {
+     .submit {
          width: 101%;
          padding: .75em 0;
          border: 1px solid $accent3;
@@ -44,7 +49,7 @@
          color: $accent3;
          outline: none;
      }
-     button:hover {
+     .submit:hover {
          background-color: $accent3;
          color: white;
      }
